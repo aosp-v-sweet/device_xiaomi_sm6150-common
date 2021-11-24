@@ -116,4 +116,8 @@
     <string name="dolby_on">On</string>
     <string name="dolby_on_with_profile">On (%1$s)</string>
 
+    <!-- DC dimming settings -->
+    <string name="dc_dimming_enable_title">Anti-Flicker Mode</string>
+    <string name="dc_dimming_enable_summary">DC Dimming reduces eye strain in low light conditions (Note: reduce image quality and color production)</string>
+
 </resources>
