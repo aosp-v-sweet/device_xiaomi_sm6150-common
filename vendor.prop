@@ -119,12 +119,21 @@ ro.crypto.volume.metadata.method=dm-default-key
 ro.crypto.volume.options=::v2
 
 # Dalvik
-dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.systemuicompilerfilter=speed
 
 # Data modules
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
+
+# Dex2oat
+pm.dexopt.boot=verify
+pm.dexopt.first-boot=verify
+pm.dexopt.install=speed-profile
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.dex2oat64.enabled=true
 
 # DPM
 persist.vendor.dpm.feature=1
